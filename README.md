@@ -76,17 +76,17 @@ Reference no:24002208
  endmodule
 
 
-**RTL LOGIC FOR FLIPFLOPS**
+**RTL LOGIC FOR FLIPFLOP**
 
 ![sr flip flop](https://github.com/user-attachments/assets/19138956-6f8e-4f3e-9c51-bfc074dcc75c)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**TIMING DIGRAM FOR FLIP FLOPS**
 
 ![WhatsApp Image 2024-12-21 at 17 39 05_95b76629](https://github.com/user-attachments/assets/7cf8f21a-1b1c-429c-b0ab-4b07399084a3)
 
 
-**RESULTS**
+**RESULT**
 
  Program for logic gates and verification of its truth table in quartus using Verilog
  programming is verified
