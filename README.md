@@ -40,28 +40,53 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
  4. Create nodes for inputs and outputs to generate the timing diagram.
  5. For different input combinations generate the timing diagram
 
-**PROGRAM**
 
-module sr_ff(s,r,clk,q,qbar);
-input s,r,clk;
-output reg q;
-output reg qbar;
-initial 
-begin
-q=0;
-qbar=1;
-end
-always @(posedge clk)
-begin
-   q=s|(~r&q);
-   qbar=r|(~s&~q);
-end
-endmodule
+**PROGRAM**
+developed by:S.Dhamini
+Reference no:24002208
+ 
+ module sr_ff(s,r,clk,q,qbar); 
+ 
+ input s,r,clk;
+ 
+ output reg q;
+ 
+ output reg qbar;
+
+ initial 
+ 
+ begin
+ 
+ q=0;
+ 
+ qbar=1;
+ 
+ end
+ 
+ always @(posedge clk)
+ 
+ begin
+ 
+    q=s|(~r&q);
+    
+    qbar=r|(~s&~q);
+    
+ end
+ 
+ endmodule
 
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![sr flip flop](https://github.com/user-attachments/assets/19138956-6f8e-4f3e-9c51-bfc074dcc75c)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![WhatsApp Image 2024-12-21 at 17 39 05_95b76629](https://github.com/user-attachments/assets/7cf8f21a-1b1c-429c-b0ab-4b07399084a3)
+
+
 **RESULTS**
+
+ Program for logic gates and verification of its truth table in quartus using Verilog
+ programming is verified
